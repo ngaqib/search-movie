@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Suez+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+@import './aside.css';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    float: left;
+    width: 95%;
+    padding-left: 50px;
+}
+
+movie-list {
+    display: block;
+    margin-top: 32px;
+    width: 100%;
+    padding: 16px;
+}
+
+aside {
+    float: left;
+    width: auto;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+    main,
+    aside {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        text-align: -webkit-center;
+    }
+}

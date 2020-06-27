@@ -1,0 +1,17 @@
+.clock {
+    width: 100%;
+    background-color: #1709e4;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(23, 9, 228, 1);
+    border-radius: 10px;
+    font-family: 'Orbitron';
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-align: center;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Movie's Search</title>
+</head>
+
+<body>
+    <header>
+        <app-bar></app-bar>
+    </header>
+
+    <main>
+        <search-bar></search-bar>
+        <movie-list></movie-list>
+    </main>
+
+    <aside>
+        <div class="profile card">
+            <header>
+                <h3>Biodata</h3>
+                <figure>
+                    <img id="jpgElement" >
+                    <figcaption>Acmad Ngaqib Muthouwali</figcaption>
+                </figure>
+            </header>
+        
+            <table class= "table">
+                <tr>
+                    <th>TTL</th>
+                    <td>: Kebumen / 9 Oktober 1993</td>
+                </tr>
+                <tr>
+                    <th>Alamat</th>
+                    <td>: Kebumen, Jawa Tengah</td>
+                </tr>
+                <tr>
+                    <th>No. HP</th>
+                    <td>: 081325522339</td>
+                </tr>
+                <tr>
+                    <th>E-mail</th>
+                    <td>: a.ngaqib.m&#64;gmail.com</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="clock">
+            <span class="time"></span>
+            <span class="date"></span>
+        </div>
+    </aside>
+
+    <movie-detail></movie-detail>
+    <loading-indicator></loading-indicator>
+
+</body>
+</html>
